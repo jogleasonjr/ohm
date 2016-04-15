@@ -180,7 +180,6 @@ function $(sel) { return document.querySelector(sel); }
   ohmEditor.searchBar.initializeForEditor(ohmEditor.ui.inputEditor);
   ohmEditor.searchBar.initializeForEditor(ohmEditor.ui.grammarEditor);
 
-  restoreEditorState(ohmEditor.ui.inputEditor, 'input', $('#sampleInput'));
   restoreEditorState(ohmEditor.ui.grammarEditor, 'grammar', $('#sampleGrammar'));
 
   ohmEditor.ui.inputEditor.on('change', function() {
