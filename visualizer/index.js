@@ -21,7 +21,7 @@ function $(sel) { return document.querySelector(sel); }
 
   ohmEditor.options = {};
   ohmEditor.ui = {
-    inputEditor: CodeMirror($('#inputContainer .editorWrapper')),
+    inputEditor: CodeMirror($('#exampleContainer .editorWrapper')),
     grammarEditor: CodeMirror($('#grammarContainer .editorWrapper'))
   };
   ohmEditor.grammar = null;
